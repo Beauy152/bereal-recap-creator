@@ -1,6 +1,9 @@
 # bereal-recap-creator
  A cli app to generate a recap video for bereal.
 
+Simply login & memories will be automatically downloaded, resized & compiled into a shareable video.
+ 
+
 This is by no means optimised nor particularly efficient - but it works!
 
 ## Pre-requisites
@@ -20,3 +23,8 @@ Upon running the application, the program will connect to the api & allow the us
  ```bash
  python main.py -p <phone-number> -y <year> [-u <bereal-api-url>] [-f <desired-fps>]
  ```
+
+
+### Note -
+
+This is in no way affiliated with BeReal.
